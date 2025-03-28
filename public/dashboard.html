@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashborad</title>
+    <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/409fdf9367.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body>
+    <div class="relative transition duration-200">
+        <div id="hnav" class="transition duration-200 float-end h-16 w-full bg-gray-700 text-white flex justify-between leading-16 items-center px-4">
+            <h2>Sharifi High Shool</h2>
+            <i id="bars" class="fas fa-bars"></i>
+            <i id="close" class="fas fa-times" style="display: none;"></i>
+        </div>
+        <div id="vnav" class=" hidden h-screen w-[25%] bg-gray-700 absolute top-0 left-0 text-white flex-col">
+            <ul class="flex flex-col gap-3.5 px-2.5">
+                <li><a href="">
+                    <i class="fa-solid fa-people"></i>
+                    Classes</a></li>
+                <li><a href="">
+                    <i class="fa-solid fa-people"></i>
+                    Students</a></li>
+                <li><a href="">
+                    <i class="fa-solid fa-people"></i>
+                    Registered Students</a></li>
+                <li><a href="">
+                    <i class="fa-solid fa-people"></i>
+                    Unregistered Students</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
